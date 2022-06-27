@@ -27,5 +27,5 @@ curl -k -X POST -H ${HEADER} -d @./inbound_routing.json ${API_URL}routing/table
 # here
 ###curl -k -X POST -H ${HEADER} -d @./default_in_routing_record.json ${API_URL}routing/record
 curl -k -X POST -H ${HEADER} -d @./interconnection_inbound.json ${API_URL}interconnection/inbound
-#curl -k -X PATCH -H ${HEADER} -d @./firewall_whiteset.json ${API_URL}base/firewall/whiteset
+curl -k -X PATCH -H ${HEADER} -d @./firewall_whiteset.json ${API_URL}base/firewall/whiteset
 curl -k -X POST -H ${HEADER} -d @./access_directory_user.json ${API_URL}access/directory/user
