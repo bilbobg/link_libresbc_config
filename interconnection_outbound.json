@@ -1,0 +1,27 @@
+{
+    "name": "interconnection_outbound",
+    "desc": "",
+    "sipprofile": "internal",
+    "distribution": "round_robin",
+    "rtpaddrs": [
+        "10.80.80.12/32"
+    ],
+    "media_class": "media_class_pcma",
+    "capacity_class": "default_capacity",
+    "translation_classes": [],
+    "manipulation_classes": [],
+    "privacy": [
+        "auto"
+    ],
+    "cid_type": "auto",
+    "nodes": [
+        "_ALL_"
+    ],
+    "enable": true,
+    "gateways": [
+        {
+            "name": "ivr",
+            "weight": 1
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "intercon_inbound",
+    "desc": "a1 siptrunk",
+    "sipprofile": "external",
+    "routing": "default_inbound_routing",
+    "sipaddrs": [
+        "0.0.0.0/0",
+        "127.0.0.1/32",
+        "31.13.255.132/32"
+    ],
+    "rtpaddrs": [
+        "0.0.0.0/0",
+        "31.12.255.132/32",
+        "127.0.0.1/32"
+    ],
+    "ringready": false,
+    "media_class": "media_class_pcma",
+    "capacity_class": "default_capacity",
+    "translation_classes": [],
+    "manipulation_classes": [],
+    "authscheme": "IP",
+    "nodes": [
+        "_ALL_"
+    ],
+    "enable": true
+}

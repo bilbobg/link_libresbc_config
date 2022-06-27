@@ -1,0 +1,11 @@
+{
+    "name": "outbound",
+    "desc": "outbound interface",
+    "addresses": [
+        {
+            "member": "libresbc",
+            "listen": "10.80.80.12",
+            "advertise": "94.156.34.168"
+        }
+    ]
+}

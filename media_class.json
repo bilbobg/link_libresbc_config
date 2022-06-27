@@ -1,0 +1,14 @@
+{
+    "name": "media_class_pcma",
+    "desc": "",
+    "codecs": [
+        "PCMA",
+        "PCMU",
+        "G729"
+    ],
+    "codec_negotiation": "generous",
+    "media_mode": "transcode",
+    "dtmf_mode": "rfc2833",
+    "cng": false,
+    "vad": false
+}

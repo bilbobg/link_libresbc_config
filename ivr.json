@@ -1,0 +1,20 @@
+{
+    "name": "ivr",
+    "desc": "",
+    "username": "k8s",
+    "realm": "87.120.110.49",
+    "from_user": "string",
+    "from_domain": "87.120.110.49",
+    "password": "k8s@l1br3SBC",
+    "proxy": "87.120.110.49",
+    "port": 5060,
+    "transport": "udp",
+    "do_register": false,
+    "caller_id_in_from": true,
+    "cid_type": "none",
+    "contact_params": "87.120.110.49",
+    "extension_in_contact": true,
+    "ping": 5,
+    "ping_max": 1,
+    "ping_min": 1
+}
